@@ -281,3 +281,53 @@ footer p {
 footer .copyright {
   text-align: center;
 }
+
+.servicesbody {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border: solid red;
+	margin: 3%;
+}
+
+#servicesheader {
+	border: solid red;
+	display: flex;
+	flex-direction: column;
+}
+
+#servicesnav {
+	display: flex;
+	justify-content: space-around;
+	flex-basis: 80%;
+	align-items: center;
+}
+
+#servicesdiv {
+	display: flex;
+}
+#servicesdiv img{
+	justify-content: flex-end;
+	align-items: center;
+}
+.servicesbody img {
+	margin: auto;
+}
+
+.servicesbody a {
+	text-decoration: none;
+	color: silver;
+}
+
+#servicestitle {
+	font-size: 180%;
+}
+
+#servicesheadertext {
+	border: solid magenta;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 1%;
+}
+
