@@ -199,6 +199,8 @@ h5 {
 #headerarea {
 	display: flex;
 	justify-content: center;
+	padding: 1%;
+	margin: 2%;
 }
 #heroarea {
 	display: flex;
