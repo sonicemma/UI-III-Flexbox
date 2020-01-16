@@ -172,7 +172,6 @@ h5 {
 
 .main-header .navbar ul li {
   padding: 0 20px;
-  border: rebeccapurple solid;
 }
 
 .main-header .navbar ul li a {
@@ -187,13 +186,28 @@ h5 {
 }
 
 /* Hero section */
-#heroarea {
-	border: black solid;
+
+#border {
+	border: solid grey .4px;
+	margin: 1%;
+	margin-top: 4%;
+	width: 70%;
+	margin-left: 15%;
+	display: flex;
+}
+
+#headerarea {
 	display: flex;
 	justify-content: center;
 }
+#heroarea {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+}
 .main-header .caption {
-  text-align: center
+  text-align: center;
 }
 
 .main-header .caption h1 {
@@ -212,16 +226,15 @@ h5 {
 }
 
 .main-header .header-img {
-  margin: auto;
+	margin: auto;
 }
 
 /* Content section */
 
-tion .content-box-top {
+.contentsection .content-box-top {
    max-width: 500px; 
    margin: 2% 0 2% 8%;
    padding: 20px;
-   border: solid red;
 }
 
 .content-section .content-box h1 {
