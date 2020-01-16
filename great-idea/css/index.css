@@ -153,19 +153,28 @@ h5 {
 .container {
   max-width: 1400px;
   margin: 0 auto;
+  border: solid red;
 }
 
 /* Navigation */
 .main-header .navbar {
   padding: 10px;
+  display: flex;
 }
 
 .main-header .navbar ul {
-	margin: auto;
+	margin: auto 0;
+	border: solid cyan;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 10%;
+	width: 80%;
+
 }
 
 .main-header .navbar ul li {
   padding: 0 20px;
+  border: rebeccapurple solid;
 }
 
 .main-header .navbar ul li a {
@@ -181,7 +190,7 @@ h5 {
 
 /* Hero section */
 .main-header .caption {
-  text-align: center;
+  text-align: center
 }
 
 .main-header .caption h1 {
@@ -197,6 +206,7 @@ h5 {
   text-decoration: none;
   margin: 0 0 0 16%;
   font-size: 20px;
+  border: solid green;
 }
 
 .main-header .header-img {
@@ -226,8 +236,14 @@ h5 {
 
 .content-section .content-box-bottom {
   max-width: 300px;
-  margin: 2% 0 2% 8%;
+  margin: 2% 0 2% 8%; 
   padding: 20px;
+  border: solid gold;
+}
+
+#bottompart{
+	border: solid salmon;
+	display: flex;
 }
 
 /* Footer */
