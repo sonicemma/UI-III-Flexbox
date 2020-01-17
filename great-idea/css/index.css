@@ -292,6 +292,13 @@ footer .copyright {
 
 */
 
+@media only screen and (mad-width: 425px) {
+	.body {
+		flex-direction: column;
+		justify-content: center;
+		width: 80%;
+	}
+}
 .servicesbody {
 	display: flex;
 	justify-content: center;
@@ -360,6 +367,7 @@ footer .copyright {
 	flex-direction: column;
 	background: whitesmoke;
 	border: solid black .5px;
+	padding: 1.5%;
 	width: 45%;
 	margin: 1%;
 	
@@ -370,6 +378,7 @@ footer .copyright {
 	background: whitesmoke;
 	width: 45%;
 	margin: 1%;
+	padding: 1.5%;
 	border: solid black .5px;
 }
 
@@ -379,6 +388,7 @@ footer .copyright {
 	background: whitesmoke;
 	width: 45%;
 	margin: 1%;
+	padding: 1.5%;
 	border: solid black .5px;
 }
 
@@ -388,6 +398,7 @@ footer .copyright {
 	background: whitesmoke;
 	width: 45%;
 	margin: 1%;
+	padding: 1.5%;
 	border: solid black .5px;
 }
 
@@ -397,6 +408,7 @@ footer .copyright {
 	background: whitesmoke;
 	width: 45%;
 	margin: 1%;
+	padding: 1.5%;
 	border: solid black .5px;
 }
 
@@ -406,6 +418,7 @@ footer .copyright {
 	background: whitesmoke;
 	width: 45%;
 	margin: 1%;
+	padding: 1.5%;
 	border: solid black .5px;
 }
 
@@ -440,4 +453,17 @@ h6 {
 	font-weight: bold;
 	margin: 5%;
 	padding-bottom: 4%;
+}
+
+.smc .learnmore {
+	flex: display;
+	width: 30%;
+	padding: 2%;
+	margin: 2%;
+	background: white;
+	border: solid black .5px;
+	justify-content: center;
+	border-radius: 5px;
+	font-size: 80%;
+
 }
