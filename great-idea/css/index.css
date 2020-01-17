@@ -286,11 +286,22 @@ footer .copyright {
   text-align: center;
 }
 
+/*
+
+				S E R V I C E S  W E B S I T E
+
+*/
+
 .servicesbody {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	margin: 3%;
+}
+
+#services-border {
+	border: solid black .4px;
+	margin: 1%;
 }
 
 #servicesheader {
@@ -303,6 +314,8 @@ footer .copyright {
 	justify-content: space-around;
 	flex-basis: 80%;
 	align-items: center;
+	padding: 2%;
+
 }
 
 #servicesdiv {
@@ -336,10 +349,10 @@ footer .copyright {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	padding: 1%;
+	justify-content: center;
 	text-align: center;
-	font-size: 120%;
+	font-size: 110%;
+	align-content: space-around;
 }
 
 #dd{
@@ -347,14 +360,16 @@ footer .copyright {
 	flex-direction: column;
 	background: whitesmoke;
 	border: solid black .5px;
-	width: 50%;
+	width: 45%;
+	margin: 1%;
+	
 }
-
 #dd2{
 	display: flex;
 	flex-direction: column;
 	background: whitesmoke;
-	width: 50%;
+	width: 45%;
+	margin: 1%;
 	border: solid black .5px;
 }
 
@@ -362,7 +377,8 @@ footer .copyright {
 	display: flex;
 	flex-direction: column;
 	background: whitesmoke;
-	width: 50%;
+	width: 45%;
+	margin: 1%;
 	border: solid black .5px;
 }
 
@@ -370,7 +386,8 @@ footer .copyright {
 	display: flex;
 	flex-direction: column;
 	background: whitesmoke;
-	width: 50%;
+	width: 45%;
+	margin: 1%;
 	border: solid black .5px;
 }
 
@@ -378,7 +395,8 @@ footer .copyright {
 	display: flex;
 	flex-direction: column;
 	background: whitesmoke;
-	width: 50%;
+	width: 45%;
+	margin: 1%;
 	border: solid black .5px;
 }
 
@@ -386,7 +404,8 @@ footer .copyright {
 	display: flex;
 	flex-direction: column;
 	background: whitesmoke;
-	width: 50%;
+	width: 45%;
+	margin: 1%;
 	border: solid black .5px;
 }
 
@@ -418,4 +437,7 @@ footer .copyright {
 h6 {
 	display: flex;
 	justify-content: center;
+	font-weight: bold;
+	margin: 5%;
+	padding-bottom: 4%;
 }
