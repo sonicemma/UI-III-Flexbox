@@ -150,6 +150,10 @@ h5 {
 }
 
 /* Your code starts here! */
+#serviceslist {
+    list-style: square;
+    list-style-position: inside;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -331,3 +335,35 @@ footer .copyright {
 	margin: 1%;
 }
 
+.smc{
+	border: solid gold;
+	display: flex;
+}
+
+.sf {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border: solid green;
+	padding: 1%;
+}
+
+#facts {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 45%;
+	font-size: 130%;
+}
+
+#factsimage {
+	display: flex;
+	border: solid grey;
+}
+
+
+h6 {
+	display: flex;
+	justify-content: center;
+}
