@@ -334,19 +334,60 @@ footer .copyright {
 
 .smc{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	border: solid green;
+	justify-content: space-around;
 	padding: 1%;
 	text-align: center;
+	font-size: 120%;
 }
 
 #dd{
 	display: flex;
 	flex-direction: column;
 	background: whitesmoke;
+	border: solid black .5px;
 	width: 50%;
+}
+
+#dd2{
+	display: flex;
+	flex-direction: column;
+	background: whitesmoke;
+	width: 50%;
+	border: solid black .5px;
+}
+
+#dd3{
+	display: flex;
+	flex-direction: column;
+	background: whitesmoke;
+	width: 50%;
+	border: solid black .5px;
+}
+
+#dd4{
+	display: flex;
+	flex-direction: column;
+	background: whitesmoke;
+	width: 50%;
+	border: solid black .5px;
+}
+
+#dd5{
+	display: flex;
+	flex-direction: column;
+	background: whitesmoke;
+	width: 50%;
+	border: solid black .5px;
+}
+
+#dd6 {
+	display: flex;
+	flex-direction: column;
+	background: whitesmoke;
+	width: 50%;
+	border: solid black .5px;
 }
 
 #bd {
